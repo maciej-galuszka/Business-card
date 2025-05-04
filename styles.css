@@ -163,6 +163,9 @@ div.my-information{
     object-fit: cover;
 }
 
+.subtitle{
+    text-align: center;
+}
 
 #contact-section{
     margin-top: 50px;
