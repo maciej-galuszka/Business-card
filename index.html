@@ -1,126 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Maciej Gałuszka - basic portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#welcome-section">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#skills-section">Skills</a></li>
-                <li><a href="#projects-section">Projects</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
-        </nav>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#welcome-section">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#projects-section">Projects</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
 
-        <section id="intro-section">
+      <section id="intro-section"></section>
 
-        </section>
+      <section id="welcome-section">
+        <div class="message">
+          <p>
+            Maciej Gałuszka <br />
+            <br />
+            Aspiring Frontend Developer with strong HTML, CSS & JavaScript
+            basics
+          </p>
+        </div>
 
-        <section id="welcome-section">
-            <div class="message">
-                <p>Maciej Gałuszka <br> <br> Aspiring Frontend Developer with Strong HTML, CSS & JavaScript basics</p>
-            </div>
+        <div class="message">
+          <img
+            src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg"
+            alt=""
+          />
+        </div>
+      </section>
 
-            <div class="message">
-                <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg" alt="">
-            </div>
-        </section>
+      <section id="about-section">
+        <h1 class="section-heading">About me</h1>
 
-        <section id="about-section">
-            <h1 class="section-heading">About me</h1>
-            
-            <div class="about-container">
-                <div class="message my-image">
-                    <img src="image-diplom.jpeg" alt="">
-                </div>
-                <div class="message my-information">
-                    <p>My name is Maciej. I am a first-year master’s student in Mathematics at the Silesian University of Technology. 
-                        My interests combine mathematics and computer science, particularly in the fields of cryptography and algorithms. 
-                        In my free time, I develop web development skills. Outside of academics, I’m passionate about sports — 
-                        I regularly work out at the gym, go cycling to build endurance, and follow football with great interest.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills-section">
-            <h1 class="section-heading">My skills</h1>
-
-            <div class="skills-container">
-                <div class="skill-information">
-                    <p><i class="fab fa-html5 fa-3x"></i></p>
-                    <p class="skill-name">HTML5</p>
-                </div>
-                <div class="skill-information">
-                    <p><i class="fab fa-css3 fa-3x"></i></p>
-                    <p class="skill-name">CSS3</p>
-                </div>
-                <div class="skill-information">
-                    <p><i class="fab fa-js fa-3x"></i></p>
-                    <p class="skill-name">JavaScript</p>
-                </div>
-                <div class="skill-information">
-                    <p><i class="fab fa-python fa-3x"></i></p>
-                    <p class="skill-name">Python</p>
-                </div>
-                <div class="skill-information">
-                    <p><i class="fab fa-react fa-3x"></i></p>
-                    <p class="skill-name">React</p>
-                </div>  
-                <div class="skill-information">
-                    <p><i class="fab fa-bootstrap fa-3x"></i></p>
-                    <p class="skill-name">Bootstrap</p>
-                </div>
-                <div class="skill-information">
-                    <p><i class="fab fa-git fa-3x"></i></p>
-                    <p class="skill-name">Git</p>
-                </div>
-                <div class="skill-information">
-                    <p><i class="fab fa-npm fa-3x"></i></p>
-                    <p class="skill-name">npm</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects-section">
-            <h1 class="section-heading">My projects</h1>
-            <div class="projects-container">
-
-                <div class="image-box">
-                    <a href="https://maciejgaluszka01.github.io/basic-calculator/"><img src="https://cdn.pixabay.com/photo/2016/07/14/15/01/calculator-1516869_640.jpg" alt=""></a>
-                    <div class="subtitle">Calculator</div>
-                </div>
-
-                <div class="image-box">
-                    <a href="https://maciejgaluszka01.github.io/digital-clock/"><img src="https://cdn.pixabay.com/photo/2015/10/20/10/25/clock-997589_1280.jpg" alt=""></a>
-                    <div class="subtitle">Digital clock</div>
-                </div>
-
-                <div class="image-box">
-                    <a href="https://maciejgaluszka01.github.io/basic-form/"><img src="https://cdn.pixabay.com/photo/2018/09/04/10/11/man-3653353_640.jpg" alt=""></a>
-                    <div class="subtitle">Basic form</div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact-section">
-            <h1 class="section-heading">Let's work together!</h1>
-            <p>You can find me on:</p>
+        <div class="about-container">
+          <div class="message my-image">
+            <img src="image-diplom.jpeg" alt="" />
+          </div>
+          <div class="message my-information">
             <p>
-                <a href="https://github.com/maciejgaluszka01"> <i class="fab fa-github"></i> Github</a>
-                <a href="https://www.linkedin.com/in/maciej-gałuszka-259672363/"> <i class="fab fa-linkedin"></i> Linkedin</a>
-                <a href="mailto:maciej.galuszka01@gmail.com"> <i class="fas fa-envelope-square"></i> E-mail</a>
+              My name is Maciej. I am a first-year master’s student in
+              Mathematics at the Silesian University of Technology. I’m
+              passionate about mathematics and computer science. I enjoy
+              tackling complex problems and analyzing different approaches to
+              solving them. In my free time, I develop programming and web
+              development skills. Outside of academics, I’m passionate about
+              sports – I regularly work out at the gym, go cycling to build
+              endurance, and follow football with great interest.
             </p>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills-section">
+        <h1 class="section-heading">My skills</h1>
+
+        <div class="skills-container">
+          <div class="skill-information">
+            <p><i class="fab fa-html5 fa-3x"></i></p>
+            <p class="skill-name">HTML5</p>
+          </div>
+          <div class="skill-information">
+            <p><i class="fab fa-css3 fa-3x"></i></p>
+            <p class="skill-name">CSS3</p>
+          </div>
+          <div class="skill-information">
+            <p><i class="fab fa-js fa-3x"></i></p>
+            <p class="skill-name">JavaScript</p>
+          </div>
+          <div class="skill-information">
+            <p><i class="fab fa-python fa-3x"></i></p>
+            <p class="skill-name">Python</p>
+          </div>
+          <div class="skill-information">
+            <p><i class="fab fa-react fa-3x"></i></p>
+            <p class="skill-name">React</p>
+          </div>
+          <div class="skill-information">
+            <p><i class="fab fa-bootstrap fa-3x"></i></p>
+            <p class="skill-name">Bootstrap</p>
+          </div>
+          <div class="skill-information">
+            <p><i class="fab fa-git fa-3x"></i></p>
+            <p class="skill-name">Git</p>
+          </div>
+          <div class="skill-information">
+            <p><i class="fab fa-npm fa-3x"></i></p>
+            <p class="skill-name">npm</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects-section">
+        <h1 class="section-heading">My projects</h1>
+        <div class="projects-container">
+          <div class="image-box">
+            <a
+              target="_blank"
+              href="https://maciejgaluszka01.github.io/basic-calculator/"
+              ><img
+                src="https://cdn.pixabay.com/photo/2016/07/14/15/01/calculator-1516869_640.jpg"
+                alt=""
+            /></a>
+            <div class="subtitle">Calculator</div>
+          </div>
+
+          <div class="image-box">
+            <a
+              target="_blank"
+              href="https://maciejgaluszka01.github.io/digital-clock/"
+              ><img
+                src="https://cdn.pixabay.com/photo/2015/10/20/10/25/clock-997589_1280.jpg"
+                alt=""
+            /></a>
+            <div class="subtitle">Digital clock</div>
+          </div>
+
+          <div class="image-box">
+            <a
+              target="_blank"
+              href="https://maciejgaluszka01.github.io/basic-form/"
+              ><img
+                src="https://cdn.pixabay.com/photo/2018/09/04/10/11/man-3653353_640.jpg"
+                alt=""
+            /></a>
+            <div class="subtitle">Basic form</div>
+          </div>
+          <div class="image-box">
+            <a
+              target="_blank"
+              href="https://maciejgaluszka01.github.io/shopping-list/"
+              ><img
+                src="https://cdn.pixabay.com/photo/2017/11/12/09/23/desk-2941921_1280.jpg"
+                alt=""
+            /></a>
+            <div class="subtitle">Shopping list app</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-section">
+        <h1 class="section-heading">Let's work together!</h1>
+        <p>You can find me on:</p>
+        <p>
+          <a href="https://github.com/maciejgaluszka01">
+            <i class="fab fa-github"></i> Github</a
+          >
+          <a href="https://www.linkedin.com/in/maciej-gałuszka-259672363/">
+            <i class="fab fa-linkedin"></i> Linkedin</a
+          >
+          <a href="mailto:maciej.galuszka01@gmail.com">
+            <i class="fas fa-envelope-square"></i> E-mail</a
+          >
+        </p>
+      </section>
     </main>
-</body>
+  </body>
 </html>
